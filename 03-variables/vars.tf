@@ -63,5 +63,10 @@ output "courses" {
 output "course-details" {
   value = var.course-details["devops"]
 }
+variable "env" {}
+
+output "env" {
+  value = var.env
+}
 
 
