@@ -56,7 +56,7 @@ output "course" {
   value = var.course
 }
 
-output "courses" {
+#output "courses" {
   value = var.courses
 }
 
