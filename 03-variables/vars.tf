@@ -60,7 +60,7 @@ output "course" {
   value = var.courses
 }
 
-output "course-details" {
+#output "course-details" {
   value = var.course-details
 }
 
