@@ -64,3 +64,12 @@ output "course-details" {
   value = var.course-details
 }
 
+## Access particular value
+
+output "courses" {
+  value = var.courses[2]
+}
+
+output "course-details" {
+  value = var.course-details["devops"]
+}
