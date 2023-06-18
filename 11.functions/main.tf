@@ -2,5 +2,5 @@ variable "class" {
   default = "devops"
 }
 output "class" {
-  value = var.class
+  value = upper("var.class")
 }
