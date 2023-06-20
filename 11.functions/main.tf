@@ -34,7 +34,7 @@ output "fruits_element" {
   value = element(var.fruits, 3)
 }
 variable "a" {
-  default = 100
+  default = 500
 }
 output "cond_value" {
   value = var.a > 300 ? "Grater Value" :"Less Quantity"
