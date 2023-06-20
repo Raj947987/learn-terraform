@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
   count = length(var.instances)
   ami           = data.aws_ami.example.id
-  instance_type = "t3.micro"
+  instance_type = "t3.micro[count.index]"
 
   tags = {
     Name = "HelloWorld"
