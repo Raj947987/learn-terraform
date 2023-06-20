@@ -33,6 +33,7 @@ output "aws_topics" {
 output "fruits_element" {
   value = element(var.fruits, 3)
 }
+## CONDITIONS
 variable "a" {
   default = 500
 }
